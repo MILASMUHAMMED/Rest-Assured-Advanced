@@ -19,11 +19,11 @@ public class SumValidation {
 			int amount = price * copies;
 			System.out.println(amount);
 			sum = sum + amount;
-			
+
 		}
 		System.out.println(sum);
 		int purchaseAmount =js.getInt("dashboard.purchaseAmount");
 		Assert.assertEquals(sum, purchaseAmount);
-		
+
 	}
 }
