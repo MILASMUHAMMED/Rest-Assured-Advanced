@@ -2,9 +2,9 @@ package files;
 
 public class payload {
 
-	
+
 	public static String AddPlace()
-	
+
 	{
 		return "{\r\n" + 
 				"  \"location\": {\r\n" + 
@@ -23,13 +23,13 @@ public class payload {
 				"  \"language\": \"French-IN\"\r\n" + 
 				"}\r\n" + 
 				"";
-		
-		
+
+
 	}
-	
+
 	public static String CoursePrice()
 	{
-		
+
 		return "{\r\n" + 
 				"  \"dashboard\": {\r\n" + 
 				"    \"purchaseAmount\": 1162,\r\n" + 
@@ -62,10 +62,10 @@ public class payload {
 				"  ]\r\n" + 
 				"}\r\n" + 
 				"";
-		
-		
-		
-}
+
+
+
+	}
 
 	public static String Addbook(String isbn, String aisle) {
 		String payload =  "{\r\n"
@@ -78,6 +78,6 @@ public class payload {
 				+ "";
 		return payload;
 	}
-	
-	
+
+
 }
