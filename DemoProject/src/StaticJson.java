@@ -22,11 +22,11 @@ public class StaticJson {
 				post("/Library/Addbook.php").
 				then().assertThat().statusCode(200).
 				extract().response().asString();;
-		
-		JsonPath js= ReUsableMethods.rawToJson(resp);
-		String id=js.get("ID");
-		System.out.println(id);
-		//deleteBOok
+
+				JsonPath js= ReUsableMethods.rawToJson(resp);
+				String id=js.get("ID");
+				System.out.println(id);
+				//deleteBOok
 	}
 	public static String GenerateStringFromResource(String path) throws IOException {
 

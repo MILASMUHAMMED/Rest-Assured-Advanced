@@ -2,11 +2,9 @@ import static io.restassured.RestAssured.given;
 
 import org.testng.annotations.Test;
 
-import files.ReUsableMethods;
 import files.payload;
 import io.restassured.RestAssured;
 import io.restassured.filter.session.SessionFilter;
-import io.restassured.path.json.JsonPath;
 
 public class SessionFilterHandle {
 
