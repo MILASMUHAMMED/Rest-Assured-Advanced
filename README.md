@@ -14,3 +14,4 @@ Path parameter & Query parameter
 
 Pojo class and deserialization of reponse
 
+Serialization and SpecBuilder scripts
